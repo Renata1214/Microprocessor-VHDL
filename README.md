@@ -36,25 +36,40 @@ Make sure that the logic components are visible.
 ## TASK 2
 Test your processor by executing the following simple program:
 ADDI R1, R0, -32 // R1 = R0 + -32 = -32
+
 ADDI R2, R0, -32 // R2 = R0 + -32 = -32
+
 ADD R3, R1, R2 // R3 = R1 + R2 = -64
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -128
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -256
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -512
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -1024
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -2048
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -4096
+
 ADD R3, R3, R3 // R3 = R3 + R3 = -8192
+
 SUBI R4, R3, -1 // R4 = R3 - 1 = 8191; overflow, should be -8193
+
 Note that the binary code for the instruction sequence above is already pre-loaded as binary
 code in the instruction ROM.
 
 ## TASK 3
 Evaluate the following binary program using your processor:
 1001 001 000 000 101
+
 1001 010 000 000 000
+
 1001 010 010 000 101
+
 1011 001 001 000 001
+
 1100 111 000 001 110
 
 ## TASK 4
