@@ -3,19 +3,19 @@
 TASK 1: Implement the microprocessor in VHDL.
 Instructions and deliverables:
 
-##Part 1) 
+## Part 1) 
 Implement the missing parts in the functional modules. Make sure to use the opcode
 type from “common.vhd” in your coding.
 
 Test your implementation by running the provided testbench as is – related deliverables
 are described in Task 2.
 
-##Part 2)
+## Part 2)
 Report how many clock cycles your implementation requires to fully execute one
 instruction, from loading the instruction to decoding it, to computing the result, and to
 writing back the result. Look into behavioral simulation runs to answer that question.
 
-##Part 3)
+## Part 3)
 Implement the missing parts in the FPGA top-level module. This will be similar to
 the basic top-level module, but you also have to instantiate and wire up the display control
 unit for that.
